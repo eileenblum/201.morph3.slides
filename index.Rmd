@@ -1,0 +1,202 @@
+---
+title: "Morphology 3"
+subtitle: "Week 10"
+author: "Eileen Blum"
+date: "Rutgers University </br> March 20, 2018"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["https://www.jvcasillas.com/ru_xaringan/css/rutgers.css", "https://www.jvcasillas.com/ru_xaringan/css/rutgers-fonts.css"]
+    nature:
+      beforeInit: "https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r, load_libraries, message=FALSE, warning=FALSE, echo=FALSE}
+library(untidydata)
+library(xaringan)
+library(plot3D)
+library(tidyverse)
+```
+# Business
+
+- Homework is due **Monday, March 26 at 5:00 pm**
+  - all future homeworks will be due on the following Monday rather than Friday
+
+- Reading is Language Files Ch. 4: Morphology
+
+- Final midterm are grades on sakai
+
+---
+
+# Review
+
+- Morphology is the linguistic subfield concerned with words and word formation
+
+- Speakers do not memorize words
+  - morphological processes are part of linguistic competence
+
+- Before spring break, we learned some basics about morphological processes
+
+- Let's review!
+
+---
+# Review: Morphological Analysis
+
+- How would we break the following words from Michoacan Aztec down into morphemes?
+
+.pull-left[
+.pull-left[
+nokali    <br>
+nokalimes <br>
+mokali    
+]
+.pull-right[
+'my house' <br>
+'my houses' <br>
+'your house'
+]]
+.pull-right[
+.pull-left[
+mopelo    <br>
+mopelomes <br>
+ipelo     
+]
+.pull-right[
+'your dog' <br>
+'your dogs' <br>
+'his dog'
+]] <br>
+
+--
+
+- What is the morpheme for 'house'?
+
+--
+
+  *kali* (Why not *kal* or *kalim*?)
+
+--
+
+- How would you say 'his houses'?
+
+--
+
+  *ikalimes*
+  
+---
+
+# Morphological types of languages
+
+- It is true that languages use morphology to varying degrees
+
+--
+
+- **Analytic** languages use *mostly* simple words (only roots, no affixes)
+
+For example,|Mandarin|Chinese|(tones|ommitted)|
+------------|--------|-------|------|---------|
+Example:    |wo      |men    |tan   |qin      |le
+Gloss:      |I       |plural |play  |piano    |past <br>
+Translation:| 'We played the piano' 
+
+--
+
+- **Synthetic** languages use complex words
+
+--
+
+  - In **fusional** languages, each morpheme carries a lot of information <br>
+Ex., Spanish <br>
+.pull-left[
+.pull-left[
+hablo     <br>
+hablamos  <br>
+habla     <br>
+hablé     
+]
+.pull-right[
+'I am speaking' <br>
+'We are speaking' <br>
+'S/he is speaking' <br>
+'I spoke'
+]]
+
+--
+.pull-right[
+.pull-left[
+-o    <br>
+-amos <br>
+-a    <br>
+-é    
+]
+.pull-right[
+1st sg present <br>
+1st pl present <br>
+3rd sg present <br>
+1st sg past
+]]
+
+---
+
+# Morphological types of languages
+
+- **Synthetic** languages use complex words
+
+  - **Agglutinative** languages continuously add morphemes <br>
+Ex., Japanese <br>
+.pull-left[
+.pull-left[
+tabe-ru <br>
+tabe-ta <br>
+tabe-rare-ru  <br>
+tabe-rare-ta  <br>
+tabe-rare-mashi-ta  
+]
+.pull-right[
+'to/will eat' <br>
+'ate' <br>
+'to/will be eaten' <br>
+'was eaten' <br>
+'was eaten (polite)'
+]]
+
+--
+.pull-right[
+.pull-left[
+-ru <br>
+-ta past <br>
+-rare <br>
+-mashi- ]
+.pull-right[
+non-past <br>
+passive <br>
+politeness
+]] <br>
+
+--
+
+  - In **polysynthetic** languages, nouns are incorporated into verb morphology <br>
+Ex., Sora <br>
+anin  -ɲam  -jɔ   -te      -n <br>
+he    catch fish  non-past do <br>
+'He is catching fish'
+
+---
+
+# Morphological types of languages
+
+- You are now familiar with various types of morphemes, morphological processes, and how to discover them
+
+--
+
+- Next, we will practice some morphological analysis
+
+
